@@ -31,7 +31,7 @@ def binary_search(titles, target):
         else: 
             low = mid + 1
         
-    return None  # Return None for a not found case
+    return None  
 
 @app.route('/search_video', methods=["GET"])
 def search_video():
